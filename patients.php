@@ -3,6 +3,7 @@ session_start();
 include('connection.php');
 $sql = "SELECT * FROM patient ORDER BY patient_id ";
 $run = mysqli_query($connect,$sql);
+$connect = $connection;
 $rows = mysqli_fetch_all($run, MYSQLI_ASSOC);
 ?>
 <!DOCTYPE html>
@@ -13,8 +14,8 @@ $rows = mysqli_fetch_all($run, MYSQLI_ASSOC);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <title>Standfirm | Patient</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+    <title>Cradlecare | Patient</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
@@ -34,10 +35,10 @@ $rows = mysqli_fetch_all($run, MYSQLI_ASSOC);
             <div class="content">
                 <div class="row">
                     <div class="col-sm-4 col-3">
-                        <h4 class="page-title">Kids</h4>
+                        <h4 class="page-title">patients</h4>
                     </div>
                     <div class="col-sm-8 col-9 text-right m-b-20">
-                        <a href="add-patient.php" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Add Kids</a>
+                        <a href="add-patient.php" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Add patients</a>
                     </div>
                 </div>
 				<div class="row">
@@ -47,7 +48,7 @@ $rows = mysqli_fetch_all($run, MYSQLI_ASSOC);
 								<thead>
 									<tr>
 										<th>Name</th>
-										<th>Kid ID</th>
+										<th>patients ID</th>
 										<th>Gender</th>
 										<th>Address</th>
 										<th>Phone</th>

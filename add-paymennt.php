@@ -10,7 +10,7 @@ include('connection.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
     <title>CredleCare - Payment</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -34,7 +34,7 @@ include('connection.php');
                         <div class="modal-body">
 						
 						<center>
-                            <img src = "assets/img/favicon.ico" style = "width: 60px"><br>
+                            <img src = "assets/img/logo.png" style = "width: 60px"><br>
 							<strong><label>Payment Reciept</label></strong><br>
 							<span>----------Customer Copy----------</span><br><label id = "info"></label>
 							<span>----------------------------------------------------</span>
