@@ -47,8 +47,8 @@ if($run1)
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <title>Standfirm | Salary</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+    <title>Cradlecare | Salary</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap4.min.css">
@@ -82,8 +82,8 @@ if($run1)
                                 <div class="col-sm-6 m-b-20">
                                     <img src="assets/img/logo.png" class="inv-logo" alt="">
                                     <ul class="list-unstyled mb-0">
-                                        <li>Stanfrim</li>
-                                        <li>Sapele, Delta State</li>
+                                        <li>Cradlecare</li>
+                                        <li>ilorin, Kwara State</li>
                                     </ul>
                                 </div>
 								<div class="col-6 col-sm-6 m-b-20">

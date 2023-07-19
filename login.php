@@ -12,8 +12,8 @@ include('connection.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <title>Cradelcare </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+    <title>Cradelcare-login</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -30,7 +30,8 @@ include('connection.php');
 				<div class="account-box">
                     <form action="controller.php" class="form-signin" method = "POST">
 						<div class="account-logo">
-<h2>                            Cradle Care</h2>
+                        <img src="assets/img/logo.png" alt="Cradlecare's Logo">
+                          <h2><strong><i>CradleCare</I></strong></h2>
                         </div>
                         <div class="form-group">
                             <label>Account Type</label>
@@ -42,21 +43,21 @@ include('connection.php');
 							</select>
                         </div><div class="form-group">
                             <label>Email</label>
-                            <input type="email" autofocus="" class="form-control" name = "email" required>
+                            <input type="email" autofocus="" class="form-control" name = "email" autocomplete="off"required>
 						<?php ?>
                         </div>
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" class="form-control" name  = "password" required>
+                            <input type="password" class="form-control" name  = "password" autocomplete="off" required>
                         </div>
                         <div class="form-group text-right">
-                            <a href="forgot-password.html">Forgot your password?</a>
+                            <>Forgot your password?</a>
                         </div>
                         <div class="form-group text-center">
                             <button type="submit" class="btn btn-primary account-btn" name = "login">Login</button>
                         </div>
                         <div class="text-center register-link">
-                           <span class = "text text-danger"> Don’t have an account? </span> <span class = "text text-info">Contact the Management</a>
+                           <span class = "text text-danger"> Don’t have an account? </span> <span class = "text text-info"title=""><a style='color:blue;' href="mailto:cradlecare313@gmail.com">message us now</a>
                         </div>
                     </form>
                 </div>

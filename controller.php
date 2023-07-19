@@ -1,7 +1,8 @@
 <?php
 session_start();
 include('connection.php');
-include('connection.php');
+
+$connect = $connection;
 function validate_data($data)
 	{
 		  $data = trim($data);
